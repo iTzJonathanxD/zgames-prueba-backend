@@ -48,5 +48,4 @@ Asegúrate de tener instalados los siguientes componentes antes de comenzar:
    http://localhost:4000
    ```
 
-3. Sigue las instrucciones en pantalla para interactuar con la aplicación.
 
