@@ -47,5 +47,22 @@ Asegúrate de tener instalados los siguientes componentes antes de comenzar:
    ```
    http://localhost:4000
    ```
+   
 
+## instalacion del docker para la base de datos con mongolDB compass 
 
+crear un archivo yml con estos mensajes
+   ```
+
+        version: '3'
+
+        services:
+            db:
+                image: mongo:latest
+                ports:
+                - "27017:27017"
+
+   ```
+
+ejecucion del docker compose para la creacion de la base de datos
+    docker-compose up –build
